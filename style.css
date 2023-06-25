@@ -12,17 +12,24 @@ body {
     background-size: cover;
 }
 .btn {
-    margin-top: 4px;
+    margin-top: 8px;
     margin-right: 16px;
     margin-left: 16px;
     font-family: 'Caprasimo', cursive;
     line-height: 25px;
     border-radius: 4px;
-    background-color: rgba(233, 253, 253, 0.492);
+    background-color: rgb(50, 227, 227);
     padding: 4px 8px;
     font-weight:900;
     font-size: 16px;
+    border: 2px solid;
+    transition: all 0.5s;
 }
+.btn:hover{
+    transform: scale(1.2,1.2);
+    background-color: rgb(238, 9, 135);
+}
+
 .nav-bar {
     width: 1000px;
     height: 40px;
@@ -54,6 +61,34 @@ body {
     font-family: 'Caprasimo', cursive;
     color: azure;
 }
+.name{
+    animation-name: effect;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+@keyframes effect {
+    0%{
+        color:azure;
+    }
+    20%{
+        color:rgb(19, 228, 228);
+    }
+    40%{
+        color:rgb(164, 232, 19);
+    }
+    60%{
+        color:rgb(228, 152, 214);
+    }
+    80%{
+        color:rgb(199, 132, 244);
+    }
+    100%{
+        color:rgb(244, 208, 78);
+    }
+}
+
 .prof {
     font-size: 25px;
     color: azure;
@@ -66,9 +101,12 @@ i {
     margin-top: 40px;
     color:bisque;
     text-decoration: none;
+    transition: all 0.5s;
 }
 i:hover{
-    color: rgb(146, 225, 232);
+    color: yellow;
+    transform: scale(1.2,1.2);
+
 }
 .para {
     font-size: 30px;
@@ -97,7 +135,32 @@ i:hover{
     padding: 10px;
     font-family: 'Cedarville Cursive', cursive;
     font-size: 30px;
+    animation-name: diff;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
     
+}
+@keyframes diff {
+    0%{
+        background-color:rgb(89, 6, 8) ;
+    }
+    20%{
+        background-color:rgb(4, 73, 27) ;
+    }
+    40%{
+        background-color:rgb(24, 149, 8) ;
+    }
+    60%{
+        background-color:rgb(70, 19, 76) ;
+    }
+    80%{
+        background-color:rgb(52, 33, 3) ;
+    }
+    100%{
+        background-color:rgb(2, 9, 73,) ;
+    }
 }
 .two {
     width:370px;
@@ -118,6 +181,10 @@ i:hover{
     padding-top: 20px;
     text-decoration: none;
     margin-bottom: 10px;
+    transition: all 0.5s;
+}
+.box1:hover {
+    transform: scale(0.8,0.8);
 }
 .box2 {
     background-color: rgba(165, 42, 42, 0.527);
@@ -125,6 +192,10 @@ i:hover{
     padding-top: 50px;
     text-decoration: none;
     height: 190px;
+    transition: all 0.5s;
+}
+.box2:hover {
+    transform: scale(0.8,0.8);
 }
 .one {
     height: 190px;
@@ -139,6 +210,10 @@ i:hover{
     text-decoration: none;
     background-color: rgba(244, 133, 133, 0.558);
     color: brown;
+    transition: all 0.5s;
+}
+.one:hover {
+    transform: scale(0.8,0.8);
 }
 a {
     text-decoration: none;

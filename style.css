@@ -1,28 +1,32 @@
+html {
+    font-size:10px;
+}
 .main {
-    width: 1000px;
-    height:550px;
+    width: 100rem;
+    height:55rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
-    background-image: linear-gradient(rgba(233, 59, 7, 0.619),rgba(0, 110, 255, 0.575));
-    box-shadow: 12px 12px;
+    background-image: linear-gradient(rgba(251, 36, 3, 0.619),rgba(3, 52, 127, 0.575));
+    box-shadow: 1.2rem 1.2rem rgba(255, 255, 255, 0.73);
 }
 body {
     background-image: url("cbg.jpg");
     background-size: cover;
+
 }
 .btn {
-    margin-top: 8px;
-    margin-right: 16px;
-    margin-left: 16px;
+    margin-top: 0.8rem;
+    margin-right: 1.6rem;
+    margin-left: 1.6rem;
     font-family: 'Caprasimo', cursive;
-    line-height: 25px;
-    border-radius: 4px;
+    line-height: 2.5rem;
+    border-radius: 0.4rem;
     background-color: rgb(50, 227, 227);
-    padding: 4px 8px;
-    font-weight:900;
-    font-size: 16px;
-    border: 2px solid;
+    padding: 0.4rem 0.8rem;
+    font-weight:0.9rem;
+    font-size: 1.6rem;
+    border: 0.2rem solid;
     transition: all 0.5s;
 }
 .btn:hover{
@@ -31,33 +35,33 @@ body {
 }
 
 .nav-bar {
-    width: 1000px;
-    height: 40px;
+    width: 100rem;
+    height: 4rem;
     display: flex;
     justify-content:left;
 
 }
 .soc-med {
-    width:60px;
-    height:510px;
+    width:6rem;
+    height:51rem;
 
     margin-left: auto;
     display:block;
 }
 .my-intro {
-    width:940px;
-    height:510px;
+    width:94rem;
+    height:51rem;
     
     text-align: center;
 }
 .my-about {
-    width:940px;
-    height:510px;
+    width:94rem;
+    height:51rem;
     
     text-align: center;
 }
 .vaibhavi {
-    font-size:100px ;
+    font-size:10rem;
     font-family: 'Caprasimo', cursive;
     color: azure;
 }
@@ -90,7 +94,7 @@ body {
 }
 
 .prof {
-    font-size: 25px;
+    font-size: 2.5rem;
     color: azure;
 }
 .twoinone {
@@ -98,7 +102,7 @@ body {
 }
 i {
     display: block;
-    margin-top: 40px;
+    margin-top: 4rem;
     color:bisque;
     text-decoration: none;
     transition: all 0.5s;
@@ -109,18 +113,18 @@ i:hover{
 
 }
 .para {
-    font-size: 30px;
-    margin: 20px;
+    font-size: 3rem;
+    margin: 2rem;
     font-weight: 700;
     font-family: 'Cedarville Cursive', cursive;
     color: rgb(239, 174, 89);
 }
 .paradiv {
-    width:900px;
-    height:500px;
+    width:90rem;
+    height:50rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 .my-projects {
     display: flex;
@@ -129,12 +133,12 @@ i:hover{
 .prodes {
     background-color:rgb(2, 9, 73) ;
     color: aliceblue;
-    margin-top: 10px;
-    height: 480px;
-    width: 200px;
-    padding: 10px;
+    margin-top: 1rem;
+    height: 48rem;
+    width: 20rem;
+    padding: 1rem;
     font-family: 'Cedarville Cursive', cursive;
-    font-size: 30px;
+    font-size: 3rem;
     animation-name: diff;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -163,24 +167,24 @@ i:hover{
     }
 }
 .two {
-    width:370px;
-    height: 440px ;
-    margin-top: 10px;
+    width:37rem;
+    height: 44rem;
+    margin-top: 1rem;
     display: grid;
-    padding: 10px;
+    padding: 1rem;
 }
 .box {
     text-align: center;
-    font-size: 30px;
+    font-size: 3rem;
     font-family: 'Black Ops One', cursive;
 }
 .box1 {
-    height: 210px;
+    height: 21rem;
     background-color: rgba(255, 255, 0, 0.544);
     color: rgb(4, 4, 82);
-    padding-top: 20px;
+    padding-top: 2rem;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     transition: all 0.5s;
 }
 .box1:hover {
@@ -189,24 +193,24 @@ i:hover{
 .box2 {
     background-color: rgba(165, 42, 42, 0.527);
     color: yellow;
-    padding-top: 50px;
+    padding-top: 5rem;
     text-decoration: none;
-    height: 190px;
+    height: 19rem;
     transition: all 0.5s;
 }
 .box2:hover {
     transform: scale(0.8,0.8);
 }
 .one {
-    height: 190px;
-    width: 240px;
+    height: 19rem;
+    width: 24rem;
     text-align: center;
-    font-size: 30px;
-    padding-top: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
+    font-size: 3rem;
+    padding-top: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     font-family: 'Black Ops One', cursive;
-    margin-top:120px ;
+    margin-top:12rem ;
     text-decoration: none;
     background-color: rgba(244, 133, 133, 0.558);
     color: brown;
@@ -217,4 +221,69 @@ i:hover{
 }
 a {
     text-decoration: none;
+}
+@media screen and (max-width:600px) {
+    .main {
+        width: 90rem;
+        height:140rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-image: linear-gradient(rgba(251, 36, 3, 0.619),rgba(3, 52, 127, 0.575));
+        box-shadow: 1.2rem 1.2rem rgba(255, 255, 255, 0.73);
+    }
+    .soc-med {
+        width:60rem;
+        height:5rem;
+        margin-top: 50rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
+        justify-content:space-evenly;
+    }
+    .soc{
+        margin-top: 20px;
+        width: 90rem;
+    }
+    i {
+        display: inline-flex;
+        margin-top: 4rem;
+        color:bisque;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+    .twoinone {
+        display:flex;
+        flex-direction: column;
+        width: 100rem;
+    }
+    .my-intro {
+        width:90rem;
+        height:50rem;
+        margin-top: 5rem;
+        text-align: center;
+    }
+    .nav-bar {
+        width: 90rem;
+        height: 4rem;
+        display: flex;
+        justify-content:space-evenly;
+    
+    }
+    .my-projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .prodes{
+        width:60rem;
+        height:fit-content;
+        margin-right: auto;
+        
+        margin-top: 5rem;
+    }
+    
+    
+   
 }
